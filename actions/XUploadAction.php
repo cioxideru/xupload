@@ -137,14 +137,14 @@ class XUploadAction extends CAction {
      * @var string
      * @since 0.2
      */
-    private $_subfolder = "";
+    protected  $_subfolder = "";
 
     /**
      * The form model we'll be saving our files to
      * @var CModel (or subclass)
      * @since 0.5
      */
-    private $_formModel;
+    protected  $_formModel;
 
     /**
      * Initialize the propeties of pthis action, if they are not set.
